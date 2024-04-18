@@ -108,35 +108,35 @@ There are several built-in hooks provided by React:
 
 1. useState: Allows functional components to have state. It returns a stateful value and a function to update that value.
 
-Syntax:
 ```html 
+Syntax:
 const [state, setState] = useState(initialState);
 ```
 
 2. useEffect: Allows performing side effects in functional components.  It replaces lifecycle methods like componentDidMount componentDidUpdate, and componentWillUnmount.
 
-Syntax:
 ```html 
+Syntax:
 useEffect(() => {
   // Side effect code here
 }, [dependencies]);
 ```
 3. useContext: Allows functional components to access the context provided by a Context.Provider component.
 
-Syntax:
 ```html 
+Syntax:
 const value = useContext(MyContext);
 ```
 4. useReducer: A more powerful alternative to useState. It is used for managing complex state logic and actions.
 
-Syntax:
 ```html 
+Syntax:
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 5. useCallback: Memoizes a function, preventing it from being recreated on every render.
 
-Syntax:
 ```html 
+Syntax:
 const memoizedCallback = useCallback(() => {
   // Callback function code here
 }, [dependencies]);
