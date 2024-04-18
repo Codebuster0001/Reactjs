@@ -54,6 +54,10 @@ npm start
 
 Here's where npm comes in. npm is like a huge store where you can find all sorts of Lego pieces, but instead of Lego, they're little bits of code that programmers have made. These bits of code can help you do all kinds of things, like making a website, creating a game, or even building a robot!
 
+## What is render?
+
+Rendering in web development is the process of turning data and instructions into something visible and interactive on the user's screen, usually through the use of HTML, CSS, and JavaScript. It's what allows us to create dynamic and engaging experiences on the web.
+
 
 ## What is State and How it is used ?
  
