@@ -46,8 +46,7 @@ You can start the development server to see your React app in action. Run:
 ```html
 npm start
 ```
-shurti ek rand hai
-phele chudai 
+
 
 
 ## What is State and How it is used ?
