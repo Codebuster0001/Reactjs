@@ -47,6 +47,12 @@ You can start the development server to see your React app in action. Run:
 npm start
 ```
 
+## What is npm and why it used ?
+  Npm, stands for "Node Package Manager," is a package manager for JavaScript.
+
+  Okay, imagine you have a big box of Lego pieces. Each piece is like a little tool or part of a program that helps you build something cool, like a spaceship or a castle. Now, sometimes you want to build something new, but you don't have all the pieces you need in your box.
+
+Here's where npm comes in. npm is like a huge store where you can find all sorts of Lego pieces, but instead of Lego, they're little bits of code that programmers have made. These bits of code can help you do all kinds of things, like making a website, creating a game, or even building a robot!
 
 
 ## What is State and How it is used ?
