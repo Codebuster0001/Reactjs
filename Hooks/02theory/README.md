@@ -46,4 +46,4 @@ Finally, React updates only the parts of the real DOM that have changed, minimiz
 
 ```
 
-## [](https://github.com/acdlite/react-fiber-architecture) Fibre
+## [Fibre](https://github.com/acdlite/react-fiber-architecture)
