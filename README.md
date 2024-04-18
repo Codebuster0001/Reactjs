@@ -62,6 +62,7 @@ Rendering in web development is the process of turning data and instructions int
 ## What is State and How it is used ?
  
   State is a dynamic data storage that provides a mechanism for components to manage, keep track of changing data, and trigger re-rendering when it is updated.
+  ```html
 
           +----------------+
           |                |
@@ -97,3 +98,82 @@ Rendering in web development is the process of turning data and instructions int
           |                |
           +----------------+
 
+```
+## What are Hooks and how many are there?
+
+  
+Hooks are a feature introduced in React 16.8 that allow you to use state and other React features in functional components. They provide a way to reuse stateful logic across different components without needing to use class components or higher-order components.
+
+There are several built-in hooks provided by React:
+
+1. useState: Allows functional components to have state. It returns a stateful value and a function to update that value.
+
+Syntax:
+```html 
+const [state, setState] = useState(initialState);
+```
+
+2. useEffect: Allows performing side effects in functional components.  It replaces lifecycle methods like componentDidMount componentDidUpdate, and componentWillUnmount.
+
+Syntax:
+```html 
+useEffect(() => {
+  // Side effect code here
+}, [dependencies]);
+```
+3. useContext: Allows functional components to access the context provided by a Context.Provider component.
+
+Syntax:
+```html 
+const value = useContext(MyContext);
+```
+4. useReducer: A more powerful alternative to useState. It is used for managing complex state logic and actions.
+
+Syntax:
+```html 
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+5. useCallback: Memoizes a function, preventing it from being recreated on every render.
+
+Syntax:
+```html 
+const memoizedCallback = useCallback(() => {
+  // Callback function code here
+}, [dependencies]);
+```
+6. useMemo: Memoizes a value, preventing it from being recomputed on every render.
+```html 
+Syntax:
+
+const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+```
+
+7.useRef: Allows functional components to hold mutable values that persist across renders.
+```html 
+Syntax:
+const refContainer = useRef(initialValue);
+```
+
+8. useImperativeHandle: Customizes the instance value that is exposed when using ref with forwardRef.
+```html 
+Syntax:
+
+useImperativeHandle(ref, () => ({
+  // Exposed instance methods or properties
+}));
+```
+
+9. useLayoutEffect: Similar to useEffect, but fires synchronously after all DOM mutations.
+```html 
+Syntax:
+useLayoutEffect(() => {
+  // Side effect code here
+}, [dependencies]);
+```
+
+10. useDebugValue: Adds a label to custom hooks in React DevTools.
+```html 
+Syntax:
+
+useDebugValue(value);
+```
