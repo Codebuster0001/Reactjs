@@ -29,6 +29,7 @@ setCount(count + 1);
 This updates the value of count to its current value plus 1.
 
 ## simple Diagram
+```html
 
                     +---------------------+
   Initial Render    |      Functional     |
@@ -48,3 +49,5 @@ This updates the value of count to its current value plus 1.
                       +-------v--------+
                       |    React DOM   |
                       +----------------+
+
+```
