@@ -49,7 +49,8 @@ If you want the effect to run whenever certain values change, you can specify th
 
 Its is simple it is used for take referance of any html element or handle event by taking referance of particular by using useRef 
 and you what to add 
->[!Important:][!ref="referance element name "] in the html tage Element.
+>[!Important:][!ref="referance element name "]
+in the html tage Element.
 
 ```html
 
@@ -67,7 +68,7 @@ and you what to add
                            |                         |                         |
                            |                         |                         |
                            |                         |                         |
-                    +------v-------+        +--------v-------+         +--------v-------+
+                    +------v-------+       +--------v-------+        +--------v-------+
                     | Component   |        |  Component    |         |  Component    |
                     |   Render    |        |   Render      |         |   Render      |
                     |             |        |               |         |               |
