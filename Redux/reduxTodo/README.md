@@ -10,3 +10,30 @@ Redux provides a centralized store that holds the entire state of your applicati
 
 ## Difference between Redux and Redux-Toolkit? 
 
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="padding: 10px; background-color: #f2f2f2;">Feature</th>
+      <th style="padding: 10px; background-color: #f2f2f2;">Redux</th>
+      <th style="padding: 10px; background-color: #f2f2f2;">Redux Toolkit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 10px;">Boilerplate</td>
+      <td style="border: 1px solid #dddddd; padding: 10px;">Requires writing more boilerplate code</td>
+      <td style="border: 1px solid #dddddd; padding: 10px;">Reduces boilerplate code</td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
+
+
+<div style="background-color:black; color:re; padding:10px;font-size:2rem">
+This text has a black background and white color.
+</div>
+
+<span style="color:red;">This text is red.</span>
+
+
+
